@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class GiaiPT {
-    // hệ số
-    float a, b, c;
-    // x1, x2 là nghiệm của phương trình
-    float x1, x2;
-    //delta
-    float delta;
 
     void GiaiPTB2() {
+        // hệ số
+        float a, b, c;
+        // x1, x2 là nghiệm của phương trình
+        float x1, x2;
+        //delta
+        float delta;
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhập hệ số bậc 2 a: ");
         a = sc.nextInt();
